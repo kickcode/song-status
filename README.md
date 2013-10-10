@@ -8,6 +8,9 @@ It polls and refreshes every 3 seconds or so, so shouldn't be too intensive. It 
 
 It uses AppleScript to fetch the information from the running apps, wrapped and called using a Ruby script, executed by a Python written Sublime Text plugin. You know, so no one feels left out.
 
+![song-status](https://raw.github.com/kickcode/song-status/master/song_status.png)
+
+
 ## Requirements
 
 * Sublime Text 3
