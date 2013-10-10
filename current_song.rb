@@ -19,7 +19,7 @@ def find_app(info, state)
   app.first.last
 end
 
-info = ["Spotify", "iTunes"].inject({}) do |hash, app|
+info = ["Rdio","Spotify", "iTunes"].inject({}) do |hash, app|
   hash[app] = {:running => exec_script("System Events", "count (every process whose name is \"#{app}\")").to_i == 1}
   if hash[app][:running]
     hash[app].merge!(:state => status(app, "player state"))
