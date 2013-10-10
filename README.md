@@ -2,7 +2,7 @@
 
 A Sublime Text plugin to show your currently playing or paused song in the status bar.
 
-Supports Spotify or iTunes, only on Mac OS X.
+Supports Spotify, iTunes, or Rdio, only on Mac OS X.
 
 It polls and refreshes every 3 seconds or so, so shouldn't be too intensive. It also does so only when Sublime Text is active.
 
@@ -10,26 +10,25 @@ It uses AppleScript to fetch the information from the running apps, wrapped and 
 
 ## Requirements
 
-Sublime Text 3
-Ruby
+* Sublime Text 3
+* Ruby
 
 ## Setup
 
-Drop/symlink current_song.rb into ~/bin.
-Drop/symlink song_status.py into ~/Library/Application Support/Sublime Text/Packages/User.
-Restart Sublime Text.
+* Drop/symlink current_song.rb into ~/bin.
+* Drop/symlink song_status.py into ~/Library/Application Support/Sublime Text/Packages/User.
+* Restart Sublime Text.
 
 ## TODO
 
-Would be nice to port the Ruby code into Python and include in a single plugin script, then put it up on Package Control.
-
-Updated to work with Sublime Text 3 a while back, and not sure now if it'll still work with Sublime Text 2 or not.
-
-Cycle through showing now playing, and up next on the playlist perhaps?
+* Would be nice to port the Ruby code into Python and include in a single plugin script, then put it up on Package Control.
+* Updated to work with Sublime Text 3 a while back, and not sure now if it'll still work with Sublime Text 2 or not.
+* Cycle through showing now playing, and up next on the playlist perhaps?
 
 ## Contributors
 
-Elliott Draper
+* Elliott Draper
+* Jake Good
 
 ## License
 
